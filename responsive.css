@@ -26,6 +26,23 @@
         text-align: center;
         margin-left: 60px;
     }
+    /* play section */
+    .play-container{
+        flex-direction: column;
+    }
+    .rectangle{
+        width: 200px;
+        height: 200px;
+    }
+    
+    /* botton section */
+    .button-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    
 }
 @media screen and (min-width:576px) and (max-width:900px) {
      /* banner responsive */
@@ -39,6 +56,19 @@
     .image-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        width:calc(100%-100px);
+    }
+    /* play section */
+    .play-container{
+        flex-direction: column;
+    }
+    /* botton section */
+    .button-container{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        padding-left: 0px;
+        padding-right: 0px;
+        width:calc(100%-100px)
     }
     
 }
