@@ -183,4 +183,67 @@ nav{
     height: 200px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 200px;
+}
+/* footer section style */
+.footer-class{
+    margin-top: 4rem;
+    background-color:#0B0223;
+    height: 300px;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    align-items: center;
+}
+.footer-icon h2{
+    color: white;
+}
+.description a{
+    text-decoration: none;
+    color: white;
+    font-family: Work Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.footer-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 1.5rem;
+}
+.socal-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+}
+/* last part style(privacy) */
+.privacy-description{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.privacy a{
+    text-decoration: none;
+    color: white;
+    /* padding-top: 1.5rem; */
+    font-family: Work Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+}
+.privacy{
+    margin-top: 20px;
+    
 }
